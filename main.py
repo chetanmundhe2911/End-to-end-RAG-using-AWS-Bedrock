@@ -51,12 +51,9 @@ def get_vector_store(docs):
    vectorstore_faiss.save_local("faiss_local")
 
 
-
 def get_llm():
     llm = Bedrock(model_id = "mistral.mistral-7b-instruct-v0:2", client = bedrock)
     return llm
-
-
 
 
 PROMPT = PromptTemplate(
@@ -80,7 +77,6 @@ def get_llm_response(llm, vectorstore_faiss, query):
     return response['result']
 
 
-
 def main():
     st.set_page_config("RAG")
     st.header("End to end RAG using Bedrock")
@@ -102,10 +98,9 @@ def main():
                llm = get_llm()
                st.write(get_llm_response(llm,faiss_index,  user_question))
 
-               
-
-
-
 
 if __name__ == "__main__":
     main()
+
+
+            
