@@ -28,4 +28,5 @@ pip install -r requirements.txt
 streamlit run main.py
 ```
 
-![alt text]('rag.png')
+
+![rag](https://github.com/chetanmundhe2911/End-to-end-RAG-using-AWS-Bedrock/assets/67324853/c46c6261-c0b9-46c8-9680-9df6e269c14e)
