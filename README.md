@@ -28,6 +28,16 @@ pip install -r requirements.txt
 streamlit run main.py
 ```
 
+###  4. run your application
+```bash
+streamlit run main.py
+```
+
+###  5. Simple Architecture 
+![simple_arhcitecture](https://github.com/chetanmundhe2911/End-to-end-RAG-using-AWS-Bedrock/assets/67324853/bc96134b-15dc-4c2c-9e5f-a10a0e6557e3)
+
+
+
 ### This is how it will look like
 ![rag](https://github.com/chetanmundhe2911/End-to-end-RAG-using-AWS-Bedrock/assets/67324853/c46c6261-c0b9-46c8-9680-9df6e269c14e)
 
